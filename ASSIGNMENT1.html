@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Letsupgrade Assignment 1</h1>
+
+
+
+
+        <script>
+
+            // Committed by Samar P Shirke
+
+        
+
+            console.log(1 + "2" + "2");
+            // output 122 here, the operand simply concatenates the strings and num and gives us 122
+            console.log(1 + +"2" + "2");
+            // output 32 here, + or - operand in front of a string converts it to number So, 1 + 2 + "2" = 32
+            console.log(1 + -"1" + "2");
+            // output 02 here, + or - operand in front of a string converts it to number So, 1 - 1 + "2" = 02
+            console.log(+"1" + "1" + "2");
+            // output 112 here, + or - operand in front of a string converts it to number So, 1 + "1" + "2" = 112
+            console.log( "A" - "B" + "2");
+            // output NaN2 here, NaN2 because string cannot be subtracted from a string which returns a "NaN" and then remaining string are concatenated           
+            console.log( "A" - "B" + 2);
+            // output NaN here, NaN because string cannot be subtracted from a string which returns a "NaN" and then number cannot be added to a NaN (not a number)
+            
+        
+
+
+
+        </script>
+
+
+        
+    </body>
+</html>
